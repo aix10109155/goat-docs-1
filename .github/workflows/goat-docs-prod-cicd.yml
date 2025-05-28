@@ -6,7 +6,7 @@ on:
     branches:
       - "main"
     paths:
-      - "k8s/updated-version_prod.yml"
+      - "**"
 
 env:
   CLUSTER_NAME: goat-mainnet
